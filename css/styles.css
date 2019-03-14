@@ -6,6 +6,6 @@ body {
   text-align: center;
 }
 
-div.contrast {
-  background-color: rgb(50,35,87);
+body {
+  background-color: lightblue;
 }
