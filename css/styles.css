@@ -128,6 +128,7 @@ section h3.section-subheading {
     transition: padding-top 0.3s, padding-bottom 0.3s;
     border: none;
     background-color: black;
+    opacity: 0.4;
   }
   #mainNav .navbar-brand {
     font-size: 1.75em;
