@@ -140,11 +140,25 @@ section h3.section-subheading {
   }
 
 
-.menu-heading {
-  margin: 15px 0;
-  text-transform: none;
+  .menu-heading {
+    margin: 15px 0;
+    text-transform: none;
+  }
+}
+.bg-menu{
+  width: 100%;
+  border: 1px solid green;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
+@media only screen and (min-width: 600px){
+  .bg-menu {
+    max-width: 600px;
+    margin: 0 auto;
+    border: 1px solid red;
+  }
+}
 
 section#reservations {
   background-color: #212529;
@@ -194,7 +208,7 @@ section#contact :-moz-placeholder {
 section#contact ::-moz-placeholder {
   font-weight: 700;
   color: #ced4da;
- font-family: 'Montserrat', 'Helvetica Neue';
+  font-family: 'Montserrat', 'Helvetica Neue';
 }
 
 section#contact :-ms-input-placeholder {
@@ -214,4 +228,3 @@ footer span.copyright {
   text-transform: none;
   font-family: 'Montserrat', 'Helvetica Neue';
 }
-
